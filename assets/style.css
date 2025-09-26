@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+body {
+    font-family: "UnifrakturMaguntia", cursive;
+}
+
+.hero .col img{
+    width: 500px;
+}
+
+.hero .col p{
+    width: 500px;
+}
+
+@media (max-width: 1024px) {
+    .hero .col img{
+        width: 400px;
+    }
+
+    .hero .col p{
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .about .col img{
+    width: 400px;
+}
+}
+
+.about .col img{
+    width: 600px;
+}
+
+@media (max-width: 992px) {
+    #hero {
+        padding-top: 50px;
+    }
+
+    .hero .col img{
+        width: 300px;
+    }
+
+    .hero .col p{
+        width: 100%;
+    }
+
+    .about .col img{
+        width: 400px;
+    }
+}
