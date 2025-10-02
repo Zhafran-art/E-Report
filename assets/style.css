@@ -4,6 +4,11 @@ body {
     font-family: "UnifrakturMaguntia", cursive;
 }
 
+section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 .hero .col img{
     width: 500px;
 }
@@ -56,4 +61,8 @@ footer {
 
 .copyright {
     margin-top: 100px;
+}
+
+.hero .col:nth-child {
+    animation-delay: 0.5s;
 }
