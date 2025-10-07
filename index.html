@@ -1,435 +1,408 @@
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Report IDN</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/IDN PMJ logo.png">
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/style.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7nPcG2gkX2BTdY7dYDWaSY5J8R+Na5Q4dXcYfM/oD9LVnYVfZCXRq/1SrtxUoUJaG+V0CPthew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!--Animate CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
-    <!-- Aos CSS -->
+    <title>Document</title>
+    <link rel="shortcut icon" href="assets/images/idn.png" type="image/x-icon">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
 
-    
-    <!-- Nav Start -->
+<body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-primary-subtle py-4 animate__animated animate__fadeInDown">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center gap-1" href="#">
-            <img src="assets/images/IDN PMJ logo.png" alt="Logo" width="30" class="d-inline-block align-text-top">
-            <spam class="fa-bold text-primary">E-Report IDN</spam>
+
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="assets/images/IDN PMJ.png " alt="Logo" width="30" class="d-inline-block align-text-top rounded ">
+                <span class="fw-bold text-primary">E-Report</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <button class="navbar-toggler bg-white shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto gap-4 text-center pt-4">
-             <li class="nav-item">
-                  <a class="nav-link text-primary" href="index.html#hero">Home</a>
-             </li>
-             <li class="nav-item">
-                  <a class="nav-link text-primary" href="index.html#about">About</a>
-             </li>
-             <li class="nav-item">
-                  <a class="nav-link text-primary" href="index.html#services">Services</a>
-             </li>
-             <li class="nav-item">
-                  <a class="nav-link text-primary" href="index.html#recent">Recent</a>
-             </li>
-             <li class="nav-item">
-                  <a class="nav-link text-primary" href="reports.html">Reports</a>
-             </li>
-            </ul>
-          </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3 text-center pt-4 pt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-primary " aria-current="page" href="#Hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#About">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#Service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#recent">Recent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="reports.html">Reports</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <!-- Nav End -->
 
-    <!-- Hero Start -->
-    <section id="hero">
+    <!-- End Navbar -->
+    <!-- Hero Section -->
+    <section id="Hero">
         <div class="container">
-            <div class="hero row flex-nowrap align-items-center justify-content-between flex-column gap-5 flex-md-row gap-md-0 overflow-hidden">
-                <div class="col text-center text-md-start animate__animated animate__fadeInLeft animate_delay-1s">
-                    <h1 class="fw-bold">
-                        Selamat Datang <br>
-                        di Aplikasi <span class="text-primary">IDN E-Report</span> <br>
-                        2025
-                    </h1>
-                    <p class="lh-lg mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis perferendis laudantium dolorem ipsum sapiente, sed voluptatum harum ipsa possimus quisquam enim eligendi sequi voluptas minus.
-                    </p>
+            <div
+                class="hero row align-items-center justify-content-beetween d-flex flex-nowrap flex-column flex-md-row gap-md-0 ">
+                <div class="col text-center text-md-start animate__animated animate__fadeInLeft">
+                    <h1 class="fw-bold animate__lightSpeedInLeft animate__animated animate__delay-1s">Selamat Datang
+                        <br> Di <span class="text-primary">Aplikasi IDN E-Report
+                            2025</span> <br> Forum Pengaduan</h1>
+                    <p class="lh-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui laborum corporis
+                        debitis similique
+                        quo facere odio a sequi accusamus ut! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Earum voluptas, nemo natus aspernatur pariatur quia saepe nulla? Officia, deserunt quisquam.</p>
                     <div>
-                        <a class="btn btn-primary" href="#">About Us</a>
-                        <a class="btn btn-outline-primary" href="#">Get Started</a>
+                        <a href="#About" class="btn btn-primary">About Us</a>
+                        <a href="report.html" class="btn btn-outline-primary">Lets Start</a>
                     </div>
                 </div>
-                <div class="col d-flex justify-content-center justify-content-lg-end animate__animated animate__fadeInRight animate_delay-1s">
-                    <img src="assets/images/E-Report Hero Image.png" alt=" ">
+                <div class="col d-flex justify-content-center > ">
+                    <img src="assets/images/E-Report Hero Image.png" alt="" srcset="" class="animate__animated animate__flipInY">
                 </div>
             </div>
         </div>
     </section>
-    <!-- Hero End -->
 
-    <!-- About Start-->
-    <section id="about">
+    <section id="About">
         <div class="container">
-            <div class="about row">
-                <div class="col text-center">
-                    <h1 class="fw-bold mb-4 text-primary" data-aos="fade-up" data-aos-duration="1000">About Us</h1>
-                    <p class="lh-lg mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis perferendis laudantium dolorem ipsum sapiente, sed voluptatum harum ipsa possimus quisquam enim eligendi sequi voluptas minus.
-                    </p>
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" src="assets/images/E-Report Assets.png" alt=" ">
+            <div class="about row d-flex flex-column align-items-center" >
+                <div class="col text-center " data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="fw-bold mb-4 text-primary" href="tentang-kami.html">About Us</h1>
+                    <p class="lh-lg mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam cum
+                        obcaecati magni maiores
+                        asperiores voluptatem laborum in? Hic eos officia possimus vel exercitationem est, distinctio
+                        illum quas assumenda illo? Modi.</p>
                 </div>
+                <img src="assets/images/E-Report Assets.png" alt="" srcset="" data-aos="zoom-in" data-aos-duration="2000">
             </div>
         </div>
     </section>
-    <!-- About End-->
-
-    <!-- Services Start -->
-    <section id="services">
+    <!-- End Hero Section -->
+    <!-- Service -->
+    <section id="Service">
         <div class="container">
-            <div class="mb-5 text-end">
-                <h1 data-aos="fade-up" data-aos-duration="1000">Services</h1>
-                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Lorem ipsum dolor sit amet.</p>
+            <div class="row mb-5 "data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="fw-bold">Service</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique temporibus impedit aperiam!</p>
             </div>
-            <div class="service row gap-3 p-2">
-                <div class="col p-4 shadow bg-primary-emphasis rounded" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <div class="row mb-5">
+                <div class="col p-4 shadow rounded-3 bg-primary text-primary-emphasis m-2" data-aos="zoom-in-up" data-aos-duration="1000">
                     <i class="fa-solid fa-graduation-cap mb-3"></i>
-                    <h4 class="mb-3 fw-bold">Pengaduan Akademik</h4>
-                    <p class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros.</p>
+                    <h4 class="fw-bold mb-3">Pengaduan Akademik</h4>
+                    <p class="lh-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, asperiores voluptas.
+                        Itaque, consequuntur distinctio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+                        omnis nobis consectetur atque in!</p>
                 </div>
-                <div class="col p-4 shadow bg-primary-emphasis rounded" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                    <i class="fa-solid fa-graduation-cap mb-3"></i>
-                    <h4 class="mb-3 fw-bold">Pengaduan Akademik</h4>
-                    <p class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros.</p>
+                <div class="col p-4 shadow rounded-3 bg-primary text-primary-emphasis m-2" data-aos="zoom-in-up"data-aos-duration="1000">
+                    <i class="fa-solid fa-screwdriver-wrench mb-3"></i>
+                    <h4 class="fw-bold mb-3">Pengaduan Fasilitas</h4>
+                    <p class="lh-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, asperiores voluptas.
+                        Itaque, consequuntur distinctio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+                        omnis nobis consectetur atque in!</p>
                 </div>
-                <div class="col p-4 shadow bg-primary-emphasis rounded" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                <div class="col p-4 shadow rounded-3 bg-primary text-primary-emphasis m-2" data-aos="zoom-in-up" data-aos-duration="1000">
                     <i class="fa-solid fa-graduation-cap mb-3"></i>
-                    <h4 class="mb-3 fw-bold">Pengaduan Akademik</h4>
-                    <p class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros.</p>
+                    <h4 class="fw-bold mb-3">Pengaduan Anonymus</h4>
+                    <p class="lh-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, asperiores voluptas.
+                        Itaque, consequuntur distinctio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+                        omnis nobis consectetur atque in!</p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Services End -->
-
-    <!-- Recent -->
+    <!-- End Service -->
+    <!-- report -->
     <section id="recent">
         <div class="container">
-            <div>
-                <h1 class="fw-bold" data-aos="fade-up" data-aos-duration="1000">Recent Report</h1>
-                <p class="lh-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="mb-5 text-end" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="fw-bold ">Recent Report</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique temporibus impedit aperiam!</p>
             </div>
-            <div class="service row">
-                <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                    <div class="card">
-                        <div>
-                            <a href="single-report.html" class="position-absolute px-3 py-2" style="background-color: rgba(0, 0, 0, 0.4);">Akademik</a>
+            <div class="row">
+                <div class="col-lg-4 mb-4 col-md-6 col-sm-12" data-aos="flip-up" data-aos-duration="1000">
+                    <div class="card" >
+                        <div class="position-absolute px-3 py-10" style="background-color: rgba(0, 0, 0, 0.5);">
+                            <a href="Akademik" class="text-white text-decoration-none">Akademik</a>
                         </div>
-                        <img src="assets/images/E-Report Assets.png" class="card-img-top" alt="poto recent">
+                        <div style="max-height: 200px; overflow: hidden;">
+                            <img src="https://picsum.photos/600/400"
+                                class="card-img-top img-fluid object-cover object-center" alt="...">
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card Title</h5>
+                            <h5 class="card-title">Akademik</h5>
                             <p>
-                                <small>
-                                    By: <a class="text-decoration-none" href="single-report.html">John Doe</a> 2 Hours Ago
-                                </small>
+                                <small>BY: <a href="#">Faheem</a> 30 min ago</small>
                             </p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="single-report.html" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+
+                <div class="col-lg-4 mb-4 col-md-6 col-sm-12" data-aos="flip-up" data-aos-duration="1000">
                     <div class="card">
-                        <div>
-                            <a href="single-report.html" class="position-absolute px-3 py-2" style="background-color: rgba(0, 0, 0, 0.4);">Akademik</a>
+                        <div class="position-absolute px-3 py-10" style="background-color: rgba(0, 0, 0, 0.5);">
+                            <a href="Akademik" class="text-white text-decoration-none">Akademik</a>
                         </div>
-                        <img src="assets/images/E-Report Assets.png" class="card-img-top" alt="poto recent">
+                        <div style="max-height: 200px; overflow: hidden;">
+                            <img src="https://picsum.photos/600/400"
+                                class="card-img-top img-fluid object-cover object-center" alt="...">
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card Title</h5>
+                            <h5 class="card-title">Akademik</h5>
                             <p>
-                                <small>
-                                    By: <a class="text-decoration-none" href="single-report.html">John Doe</a> 2 Hours Ago
-                                </small>
+                                <small>BY: <a href="#">Faheem</a> 30 min ago</small>
                             </p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="single-report.html" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+
+                <div class="col-lg-4 mb-4 col-md-6 col-sm-12" data-aos="flip-up" data-aos-duration="1000">
                     <div class="card">
-                        <div>
-                            <a href="single-report.html" class="position-absolute px-3 py-2" style="background-color: rgba(0, 0, 0, 0.4);">Akademik</a>
+                        <div class="position-absolute px-3 py-10" style="background-color: rgba(0, 0, 0, 0.5);">
+                            <a href="Akademik" class="text-white text-decoration-none">Akademik</a>
                         </div>
-                        <img src="assets/images/E-Report Assets.png" class="card-img-top" alt="poto recent">
+                        <div style="max-height: 200px; overflow: hidden;">
+                            <img src="https://picsum.photos/600/400"
+                                class="card-img-top img-fluid object-cover object-center" alt="...">
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card Title</h5>
+                            <h5 class="card-title">Akademik</h5>
                             <p>
-                                <small>
-                                    By: <a class="text-decoration-none" href="#">John Doe</a> 2 Hours Ago
-                                </small>
+                                <small>BY: <a href="#">Faheem</a> 30 min ago</small>
                             </p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="single-report.html" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                    <div class="card">
-                        <div>
-                            <a href="single-report.html" class="position-absolute px-3 py-2" style="background-color: rgba(0, 0, 0, 0.4);">Akademik</a>
-                        </div>
-                        <img src="assets/images/E-Report Assets.png" class="card-img-top" alt="poto recent">
-                        <div class="card-body">
-                            <h5 class="card-title">Card Title</h5>
-                            <p>
-                                <small>
-                                    By: <a class="text-decoration-none" href="#">John Doe</a> 2 Hours Ago
-                                </small>
-                            </p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="single-report.html" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                    <div class="card">
-                        <div>
-                            <a href="single-report.html" class="position-absolute px-3 py-2" style="background-color: rgba(0, 0, 0, 0.4);">Akademik</a>
-                        </div>
-                        <img src="assets/images/E-Report Assets.png" class="card-img-top" alt="poto recent">
-                        <div class="card-body">
-                            <h5 class="card-title">Card Title</h5>
-                            <p>
-                                <small>
-                                    By: <a class="text-decoration-none" href="#">John Doe</a> 2 Hours Ago
-                                </small>
-                            </p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="single-report.html" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    <div class="card">
-                        <div>
-                            <a href="single-report.html" class="position-absolute px-3 py-2" style="background-color: rgba(0, 0, 0, 0.4);">Akademik</a>
-                        </div>
-                        <img src="assets/images/E-Report Assets.png" class="card-img-top" alt="poto recent">
-                        <div class="card-body">
-                            <h5 class="card-title">Card Title</h5>
-                            <p>
-                                <small>
-                                    By: <a class="text-decoration-none" href="#">John Doe</a> 2 Hours Ago
-                                </small>
-                            </p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="single-report.html" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
-            <div class="text-center mt-3">
-                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                    Lihat Lebih Banyak
-                </a>
+
+
+
+            <div class="row text-center mt-4">
+
+                <a href="report.html" class="link-offset-2 link-underline link-underline-opacity-0">Lebih Banyak <i
+                        class="fa-solid fa-arrow-right"></i></a>
             </div>
+
         </div>
     </section>
-    <!-- Recent End -->
-
-    <!-- FAQ Start -->
+    <!-- End report -->
+    <!-- Faq -->
     <section id="faq">
         <div class="container">
-            <div class="row text-center">
-                <h1 class="fw-bold mb-4 text-primary" data-aos="fade-up" data-aos-duration="1000">Frequently Asked Question</h1>
-                <p class="lh-lg mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis perferendis laudantium dolorem ipsum sapiente, sed voluptatum harum ipsa possimus quisquam enim eligendi sequi voluptas minus.
+            <div class="row text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="fw-bold mb-4 text-primary">FAQ</h1>
+                <p class="lh-lg mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam cum
+                    obcaecati magni maiores
+                    asperiores voluptatem laborum in? Hic eos officia possimus vel exercitationem est, distinctio
+                    illum quas assumenda illo? Modi.
                 </p>
             </div>
-            <div class="accordion pt-4" id="accordionExample">
-                <div class="row row-cols-md-2 row-cols-1 g-4">
+            <div class="accordion " id="accordionFlushExample" data-aos="zoom-in-up" data-aos-duration="1000">
+                <div class="row row-cols-1 row-cols-md-2  g-4">
                     <div class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Apa itu E-Report IDN?
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#Faqone" aria-expanded="false"
+                                    aria-controls="Faqone">
+                                    Accordion Item #1
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>E-Report</strong> IDN adalah platform pengaduan online 
-                                    yang memungkinkan siswa untuk melaporkan masalah akademik 
-                                    dan non-akademik secara mudah dan cepat. Ini adalah item pertama dari 
-                                    <code>.accordion-body</code>.
-                                    , but transition can limit overflow
-                                </div>
+                            <div id="Faqone" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion body.</div>
                             </div>
                         </div>
+
+
+
                     </div>
                     <div class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                    Apa itu E-Report IDN?
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-FaqTwo" aria-expanded="false"
+                                    aria-controls="flush-FaqTwo">
+                                    Accordion Item #1
                                 </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>E-Report</strong> IDN adalah platform pengaduan online 
-                                    yang memungkinkan siswa untuk melaporkan masalah akademik 
-                                    dan non-akademik secara mudah dan cepat. Ini adalah item pertama dari 
-                                    <code>.accordion-body</code>.
-                                    , but transition can limit overflow
-                                </div>
+                            <div id="flush-FaqTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion body.</div>
                             </div>
                         </div>
+
+
+
                     </div>
                     <div class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                    Apa itu E-Report IDN?
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#FaqThree" aria-expanded="false"
+                                    aria-controls="FaqThree">
+                                    Accordion Item #1
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>E-Report</strong> IDN adalah platform pengaduan online 
-                                    yang memungkinkan siswa untuk melaporkan masalah akademik 
-                                    dan non-akademik secara mudah dan cepat. Ini adalah item pertama dari 
-                                    <code>.accordion-body</code>.
-                                    , but transition can limit overflow
-                                </div>
+                            <div id="FaqThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion body.</div>
                             </div>
                         </div>
+
+
+
                     </div>
                     <div class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                    Apa itu E-Report IDN?
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#FaqFour" aria-expanded="false"
+                                    aria-controls="FaqFour">
+                                    Accordion Item #1
                                 </button>
                             </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>E-Report</strong> IDN adalah platform pengaduan online 
-                                    yang memungkinkan siswa untuk melaporkan masalah akademik 
-                                    dan non-akademik secara mudah dan cepat. Ini adalah item pertama dari 
-                                    <code>.accordion-body</code>.
-                                    , but transition can limit overflow
-                                </div>
+                            <div id="FaqFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion body.</div>
                             </div>
                         </div>
+
+
+
                     </div>
                     <div class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                                    Apa itu E-Report IDN?
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#FaqFifth" aria-expanded="false"
+                                    aria-controls="FaqFifth">
+                                    Accordion Item #1
                                 </button>
                             </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>E-Report</strong> IDN adalah platform pengaduan online 
-                                    yang memungkinkan siswa untuk melaporkan masalah akademik 
-                                    dan non-akademik secara mudah dan cepat. Ini adalah item pertama dari 
-                                    <code>.accordion-body</code>.
-                                    , but transition can limit overflow
-                                </div>
+                            <div id="FaqFifth" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion body.</div>
                             </div>
                         </div>
+
+
+
                     </div>
                     <div class="col">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                                    Apa itu E-Report IDN?
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#FaqSix" aria-expanded="false"
+                                    aria-controls="FaqSix">
+                                    Accordion Item #1
                                 </button>
                             </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>E-Report</strong> IDN adalah platform pengaduan online 
-                                    yang memungkinkan siswa untuk melaporkan masalah akademik 
-                                    dan non-akademik secara mudah dan cepat. Ini adalah item pertama dari 
-                                    <code>.accordion-body</code>.
-                                    , but transition can limit overflow
-                                </div>
+                            <div id="FaqSix" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion body.</div>
                             </div>
                         </div>
+
+
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- FAQ End -->
 
-    <!-- Footer Start -->
     <footer class="bg-primary py-5">
         <div class="container">
             <div class="row justify-content-between row-gap-4">
-                <div class="col-md-4 text-white">
-                    <div class="d-flex align-items-center gap-2 mb-2">
-                        <img src="assets/images/IDN PMJ logo.png" alt="Logo" width="30" class="d-inline-block align-text-top rounded" />
-                        <h2 class="fw-bold m-0">E-Report</h2>
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center gap-2 py-3 mb-2">
+
+                        <img src="assets/images/IDN PMJ.png " alt="Logo" width="30"
+                            class="d-inline-block align-text-top rounded ">
+                        <h2 class="fw-bold text-white m-0">E-Report</h2>
                     </div>
-                    <p class="lh-lg opacity-75 m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat est architecto tempora eius aut esse non cupiditate ratione debitis praesentium?</p>
+                    <p class="text-white lh-lg opacity-75 m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem neque distinctio quisquam ullam repellat libero, cumque repudiandae beatae ipsam.
+                        Officiis.</p>
                 </div>
-                <div class="col-md-2 d-flex flex-column gap-2">
-                    <h4>Menu</h4>
-                    <a href="index.html#hero" class="footer-link text-white text-decoration-none">Home</a>
-                    <a href="index.html#about" class="footer-link text-white text-decoration-none">About</a>
-                    <a href="index.html#services" class="footer-link text-white text-decoration-none">Services</a>
-                    <a href="index.html#recent" class="footer-link text-white text-decoration-none">Recent</a>
-                    <a href="index.html#faq" class="footer-link text-white text-decoration-none">FAQ</a>
+                <div class=" col-md-2 d-flex flex-column gap-2">
+                    <h4 class="text-white">Menu</h4>
+                    <a href="#Hero" class="text-white text-decoration-none footer-links">Home</a>
+                    <a href="#About" class="text-white text-decoration-none footer-links">About Us</a>
+                    <a href="#Service" class="text-white text-decoration-none footer-links">Service</a>
+                    <a href="#recent" class="text-white text-decoration-none footer-links">Recent</a>
+                    <a href="#faq" class="text-white text-decoration-none footer-links">FAQ</a>
                 </div>
-                <div class="col-md-4 d-flex flex-column gap-2 text-white">
-                    <h4 class="fw-bold">Contact Us</h4>
-                    <p class="m-0 d-flex align-items-center gap-2">
-                        <i class="fa-solid fa-envelope"></i>
-                        ammarayyasy@idn.sch.id
-                    </p>
-                    <p class="m-0 d-flex align-items-center gap-2">
-                        <i class="fa-solid fa-phone"></i>
-                        +62-813-9980-8859
-                    </p>
-                    <p class="m-0 d-flex align-items-center gap-2">
-                        <i class="fa-solid fa-location-dot"></i>
-                        Jalan Raya J1. KH. Abdul Hamid No.02
-                    </p>
+                <div class=" col-md-4 d-flex flex-column gap-2 ">
+                    <h4 class="text-white">Contact</h4>
+                    <p class="text-white text-decoration-none footer-links"><i class="fa-solid fa-envelope"></i>
+                        IdnBored@gmail.com</a>
+                    <p class="text-white text-decoration-none footer-links"><i class="fa-solid fa-phone"></i>
+                        0896722312</a>
+                    <p class="text-white text-decoration-none footer-links"><i class="fa-solid fa-globe"></i>
+                        IDNBored.sch.id</a>
+                    <p class="text-white text-decoration-none footer-links"><i class="fa-brands fa-twitch"></i>
+                        IDNTWICH</a>
                 </div>
             </div>
-
-            <div class="copyright">
-                <p>&copy; Copyright by <span class="fw-bold">RPL Class</span> 2025, All Rights Reserved.</p>
+            <div class="row mt-5">
+                <p class="text-center text-white opacity-75 mt-4 mb-0">Copyright &copy; 2024 | All Right Reserved</p>
             </div>
         </div>
     </footer>
-    <!-- Footer End -->
 
 
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
-    <!-- Aos JS -->
+    <!-- Bootstrap JS CDN (with Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
 </body>
+
 </html>
